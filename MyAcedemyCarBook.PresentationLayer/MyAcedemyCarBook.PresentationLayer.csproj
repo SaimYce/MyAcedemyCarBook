@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\MyAcedemyCarBook.BusinessLayer\MyAcedemyCarBook.BusinessLayer.csproj" />
+    <ProjectReference Include="..\MyAcedemyCarBook.DataAccessLayer\MyAcedemyCarBook.DataAccessLayer.csproj" />
+    <ProjectReference Include="..\MyAcedemyCarBook.EntityLayer\MyAcedemyCarBook.EntityLayer.csproj" />
+  </ItemGroup>
+
+</Project>
